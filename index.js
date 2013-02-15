@@ -1,8 +1,8 @@
 var cosm = require('cosm'),
     cosm_api_key = 'enter key here',        // update this
     cosm_data_feed = 'enter feed id here',  // update this
-    check_frequency = 5, // seconds
     url = 'google.com',                     // update this
+    check_frequency = 5,                    // seconds
     client = new cosm.Cosm(cosm_api_key),
     feed = new cosm.Feed(cosm, {id: cosm_data_feed}),
     stream = new cosm.Datastream(client, feed, {id: 1}),
