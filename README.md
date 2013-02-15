@@ -48,3 +48,7 @@ Edit index.js to add your Cosm api key, data feed, and URL to monitor
  ```
  stream.addPoint(p[6]);  // make this 5, if used on a mac
  ```
+
+To install a system boot, here's some documentation:
+<http://www.stuffaboutcode.com/2012/06/raspberry-pi-run-program-at-start-up.html>
+
