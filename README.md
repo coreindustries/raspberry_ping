@@ -21,6 +21,11 @@ Then
 git clone https://github.com/coreindustries/raspberry_ping.git
 ```
 
+Ensure you're in the directory with index.js, then run:
+```
+npm install
+```
+
 Edit index.js to add your Cosm api key, data feed, and URL to monitor
 
 ```
