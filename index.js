@@ -1,6 +1,6 @@
 var cosm = require('cosm'),
-    cosm_api_key = 'a5ZUjzOebMJEHA_JTfsXXCIdjfmSAKxweGhPKytMR1VGOD0g',        // update this
-    cosm_data_feed = '104150',  // update this
+    cosm_api_key = 'key',        // update this
+    cosm_data_feed = 'feed id',  // update this
     url = 'google.com',                     // update this
     check_frequency = 5,                    // seconds
     client = new cosm.Cosm(cosm_api_key),
