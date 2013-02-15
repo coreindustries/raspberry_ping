@@ -1,0 +1,13 @@
+{
+	"name" : "raspberry_ping",
+	"version" : "0.0.1",
+	"author" : "Corey Szopinski <corey@core-industries.com>",
+	"description" : "A simple tool to measure ping times, and record to Cosm. Useful for keeping track of internet performance",
+	"dependencies" : {
+		"cosm" : "*"
+	},
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/coreindustries/raspberry_ping.git"
+  },
+}
